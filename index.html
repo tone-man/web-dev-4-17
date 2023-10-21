@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 4.17</title>
+</head>
+<body>
+
+    <h1> Regular Expression Practice </h1>
+    <p>
+        This Regular Expression checker checks for the following.
+    </p>
+    <ol>
+        <li><p>All the words of any length that start and end with the letter d.</p></li>
+        <li><p>All of the variations of the word "letter".</p></li>
+        <li><p>One or more digits followed by the letter "w" and then 0 or more digits.</p></li>
+        <li><p>Any number of X's, followed by exactly 3 O's.</p></li>
+        <li><p>A phrase that is four words separated by single spaces, each word five or fewer letters.</p></li>
+    </ol>
+    <form onsubmit="return false">
+        <label for="input-text"> Insert text Below to be checked.</label><br>
+        <textarea id="input-text" rows="6" cols="100"></textarea><br>
+        <button onclick="runChecks()"> Run Checks </button>
+    </form>
+    <h2> Results:</h2>
+    <div id="output"></div>
+
+</body>
+
+<script src="regex.js"></script>
+</html>
